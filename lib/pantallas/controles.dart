@@ -166,11 +166,6 @@ class ControlesState extends State<Controles> {
       for (int i = 0; i < tablero.length; i++) {
         tablero[i] = estados.vacio;
       }
-      if (reiniciarContadores) {
-        victoriasCruz = 0;
-        victoriasCirculo = 0;
-        empates = 0;
-      }
     });
   }
 }
