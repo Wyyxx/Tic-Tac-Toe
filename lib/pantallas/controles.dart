@@ -1,8 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/widgets.dart';
 import 'package:gto/config/config.dart';
-import 'package:gto/widget/celda.dart';
+
 
 class Controles extends StatefulWidget {
   const Controles({super.key});
