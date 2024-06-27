@@ -104,7 +104,7 @@ class _HomeState extends State<Home> {
     if (Platform.isAndroid) {
       SystemNavigator.pop();
     } else if (Platform.isIOS) {
-      exit(0); // No recomendado para la aprobación en App Store
+      exit(0);
     }
   }
 }
